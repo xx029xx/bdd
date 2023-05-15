@@ -37,6 +37,4 @@ public class DashboardPage {
         secondCardNum.$(cardElementBtn).click();
         return new MoneyTransferPage();
     }
-
-
 }

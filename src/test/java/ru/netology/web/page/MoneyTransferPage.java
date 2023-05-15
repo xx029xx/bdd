@@ -11,8 +11,6 @@ public class MoneyTransferPage {
         $("[data-test-id=from] input").setValue(info.getFromCard());
         $("[data-test-id=action-transfer]").click();
         return new DashboardPage();
-
     }
-
 }
 

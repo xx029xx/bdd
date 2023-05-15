@@ -7,6 +7,7 @@ import ru.netology.web.data.DataHelper;
 import ru.netology.web.page.LoginPage;
 
 class MoneyTransferTest {
+
     @Test
     void shouldTransferMoneyBetweenOwnCardsV1() {
 
@@ -36,6 +37,4 @@ class MoneyTransferTest {
         Assertions.assertEquals(originSecondCardValue - transferInfo.getAmount(), actualSecondCardBalance);
 
     }
-
-
 }
